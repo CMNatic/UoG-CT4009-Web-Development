@@ -1,0 +1,56 @@
+/*
+ * General styles
+ */
+
+html, body {
+    height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.jumbotron-fluid {
+    padding-top: 5%;
+}
+
+.content {
+    padding-top: 1%;
+    font-size: 40px !important;
+    text-align: center;
+}
+h1,p {
+    margin-left: 3%;
+}
+
+hr {
+    width: 100% !important;
+    margin-left: 3% !important;
+}
+.btn {
+    padding-top: 10%;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#imgupload{
+    width: 80%;
+}

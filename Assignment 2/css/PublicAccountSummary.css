@@ -1,0 +1,29 @@
+/*
+ * General styles
+ */
+
+html, body {
+    height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 3%;
+}
+
+.jumbotron-fluid {
+    padding-top: 5%;
+}
+
+.bicycles {
+    padding-top: 15%;
+    font-size: 30px !important;
+    text-align: center;
+}
+h1,p {
+    margin-left: 3%;
+}
+
+hr {
+    width: 48% !important;
+    margin-left: 3% !important;
+}

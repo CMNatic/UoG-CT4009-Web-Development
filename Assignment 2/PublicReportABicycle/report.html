@@ -1,0 +1,157 @@
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Ben Eriksson, S1709408 Trent Morgan, SNUMBER">
+    
+    <title> GlosIT 2018</title>
+	<!-- custom css styles -->
+	<link rel="stylesheet" href="../css/PublicReportABicycle.css">
+    
+	<!-- Bootstrap Library -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Javacript & Jquery -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/PublicReportABicycle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <nav class="navbar bg-dark navbar-dark navbar-expand-lg fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="https://www.gloucestershire.police.uk">Gloucester Constabulary</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+
+			</button>
+
+			<!-- Hyperlink to the 'About' section of the page -->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="navbar-item active">
+						<a class="nav-link" href="../index.html">About</a>
+
+						<!-- Navbar dropdown allows multiple hyperlinks to be placed under one main one to keep the Navbar tidy and organised for users.
+
+							|
+								- Police
+									-Login
+
+								-Public
+									-Create an account
+									-Login
+						-->
+
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Police<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="../PoliceLoginPage/login.html">Login</a></li>
+								</ul>
+						</li>
+
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Public<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="../PublicLoginPage/login.html">Login</a></li>
+									<div class="dropdown-divider"></div>
+									<li><a href="../PublicRegistrationPage/registration.html">Create an account</a></li>
+								</ul>
+						</li>
+
+						<li class="navbar-item">
+							<a class="nav-link" href="https://www.gloucestershire.police.uk/contact-us/enquiries/">Contact Us</a>
+                        </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <!-- Bootstrap Jumbotron for page content -->
+
+    <div class="jumbotron-fluid">
+  <h1 class="display-3">Report a Bicycle</h1>
+  <hr class="my-4">
+  <p class="lead content">Using the form below.</p>
+</div>
+    
+    <!-- Bicycle Registration Form -->
+    
+    <!-- 
+
+    Col-md-[number] represents how much the page it'll take up. 12 being the most.
+
+    E.g.
+
+    COL-MD-4
+        -25% of page
+
+    COL-MD-6
+        -50% of page
+
+    -->
+    
+    <form id="BicycleRegistration">
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputMPN">Manufacturer Part Number</label>
+      <input type="number" class="form-control" name="inputMPNNbr "id="inputMPNNbr" placeholder="E.g. KUSH2">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputBRD">Brand</label>
+      <input type="text" class="form-control" name="inputBrand" id="inputBRDTxt" placeholder="E.g. Raleigh">
+    </div>
+  </div>
+        <div class="form-row">
+  <div class="form-group col-md-8">
+    <label for="inputTYE">Type</label>
+    <input type="text" class="form-control" name="inputType" id="inputTYEtxt" placeholder="E.g. Mountain Bike">
+    </div>
+  </div>
+        <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputEmail4">Gears</label>
+      <input type="number" class="form-control" name="inputGears" id="inputGRSnbr" placeholder="E.g. 6">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputACS">Accessories</label>
+      <input type="password" class="form-control" name="inputAcessories" id="inputACStxt" placeholder="E.g. Waterbottle holder">
+    </div>
+  </div>
+        <div class="form-row">
+    <div class="form-group col-md-8">
+      <label for="inputCLR">Primary Colour</label>
+      <input type="text" class="form-control" name="inputColour"id="inputCLRtxt" placeholder="E.g. Blue">
+    </div>
+        </div>
+ <div class="form-group cold-md-6">
+        <label>Upload Image</label>
+        <div class="input-group">
+            <span class="input-group-btn">
+                <span class="btn btn-default btn-file">
+                    Browse… <input type="file" name="inputImage" id="imgInput">
+                </span>
+            </span>
+            <input type="text" class="form-control" readonly>
+        </div>
+        <img id='imgUpload'/>
+    </div>
+        
+    <!-- submit the form above, so that reportabicyclepage.js and DAO.php file can catch the input, and process it on the back-end. -->
+        
+  <button type="submit" class="btn btn-primary">Report as stolen</button>
+</form>
+    
+    <!-- Import script last to ensure all form elements are loaded before, making sure that there are no blank entries in the database -->
+    
+    
+    <script src="reportabicyclepage.js"></script>
+            
+</body>
+</html>

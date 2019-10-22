@@ -1,0 +1,41 @@
+/* Import Comfortaa, Open+Sans, Ubuntu fonts */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Ubuntu');
+
+.indexHeader { 
+    padding-top: 13%;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Div tag "indexHeader" styling elements, i, p, button **/
+.indexHeader i {
+    font-size: 70px;
+    padding-bottom: 5%;
+}
+
+.indexHeader p {
+    padding-top: 2%;
+    padding-left: 1%;
+    font-size: 24px;
+}
+
+.indexHeader button {
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+
+/* Index jumbotron styling */
+.jumbotron {
+    text-align: center;
+    margin-bottom: 0% !important; /* !important Overrides Bootstrap default styling of margin-bottom */
+}
+.jumbotron a {
+    margin-left: 2%;
+    margin-right: 6%;
+    color: black !important; /* !important Overrides Bootstrap default styling of the color attribute */
+}
+.jumbotron a:hover {
+    margin-left 2%;
+    margin-right: 6%;
+    color: white !important; /* !important Overrides Bootstrap default styling of the color attribute */
+}
